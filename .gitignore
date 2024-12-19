@@ -1,0 +1,52 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Ignore Conda environment files
+*.conda
+*.env
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore VSCode settings
+.vscode/
+*.code-workspace
+
+# Ignore directories
+figure_extractor/
+llmsherpa/
+
+# Ignore other common files
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+*.DS_Store
+
+# Ignore model files like bin
+*.bin
+*.pth
+*.pt
+
+*.pdf
+*.png
+*.jpg
+
+# Ignore TODO and NOTES files
+TODO.txt
+NOTES.txt
+
+*.faiss
+*.index
+*.json

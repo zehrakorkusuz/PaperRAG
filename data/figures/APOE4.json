@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 5. TIM are enriched in the cortical layers of human AD patients bearing ApoE4",
+  "captionBoundary": {
+    "x1": 59.75429916381836,
+    "x2": 363.0741271972656,
+    "y1": 574.2112426757812,
+    "y2": 577.9844970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 547.1999999999999,
+    "y1": 100.8,
+    "y2": 558.0
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/APOE4-Figure5-1.png"
+}, {
+  "caption": "Figure 3. Multiome sequencing of AD*APOE4 mice at 60 weeks of age nominates regulatory features of TIM (A) Joint UMAP of RNA and ATAC features from the multiome library. (B) Volcano plot of chromVAR motif accessibility between TIM and DAM-2 cells. (C) Scores for two topics derived from the latent Dirichlet allocation of ATAC features and their associated transcription factors. (D) Heatmap of eRegulon enrichment and expression across microglial clusters. (E) Perturbation simulation plots ablating Fos andNkfb2. Expression of the respective transcription factor was set to 0, and the gene regulatory networks were reinitialized to generate new expression profiles for each cell. Cells are projected in a PCA space defined by the gene regulatory net. Arrow shade indicates the magnitude of the transition flow. (F) Circos plot of the multiome dataset interactome. Size of the outermost bars represents the number of interactions, divided into cluster-by-other and other-bycluster.",
+  "captionBoundary": {
+    "x1": 59.75429916381836,
+    "x2": 549.9232788085938,
+    "y1": 640.0316772460938,
+    "y2": 728.957275390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 547.1999999999999,
+    "y1": 100.8,
+    "y2": 624.0
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/APOE4-Figure3-1.png"
+}, {
+  "caption": "Figure 7. Aducanumab treatment profoundly alters the landscape of immune cells in the AD milieu",
+  "captionBoundary": {
+    "x1": 53.12120056152344,
+    "x2": 403.81524658203125,
+    "y1": 695.0237426757812,
+    "y2": 698.7969970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 55.919999999999995,
+    "x2": 541.1999999999999,
+    "y1": 100.8,
+    "y2": 679.1999999999999
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/APOE4-Figure7-1.png"
+}, {
+  "caption": "Figure 1. The age- and APOE isoform-dependent AD neuroimmune atlas (A) Schematic of the workflow used to generate the atlas, generated from n = 3–6 animals per age and genotype. (B) UMAP of all cells in the atlas.",
+  "captionBoundary": {
+    "x1": 59.75429916381836,
+    "x2": 411.77374267578125,
+    "y1": 715.8867797851562,
+    "y2": 738.5953369140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 108.96,
+    "x2": 501.12,
+    "y1": 100.8,
+    "y2": 700.0799999999999
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/APOE4-Figure1-1.png"
+}, {
+  "caption": "Figure 6. TIM are functionally impaired in their capacity for amyloid-b clearance (A) Schematic of the experimental strategy to characterize microglial capacity for ex vivo Ab uptake. (B) UMAP generated from all cells sequenced after the Ab uptake experiment. (C) Joint subclustering UMAP of all microglial cells in the dataset and 2D density plots overlaid on the microglial UMAP showing cell distributions from the high uptake and low uptake populations. TIM clusters are outlined in red. Note that TIM, particularly effector-lo TIM, are depleted in the high uptake fraction. (D) Barplot of the fraction of cells from each genotype and cluster in the high uptake pool and dotplot showing the fraction of cells from each genotype in the given cluster. Degree of over- or underrepresentation in the high uptake pool was evaluated using a chi-square test on the null expectation of an even split. p values are reported at the a = 0.05 threshold.",
+  "captionBoundary": {
+    "x1": 59.75429916381836,
+    "x2": 549.9469604492188,
+    "y1": 601.0269775390625,
+    "y2": 671.01708984375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 548.16,
+    "y1": 100.8,
+    "y2": 585.12
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/APOE4-Figure6-1.png"
+}, {
+  "caption": "Figure 4. TIM are detected in publicly available human snRNA-seq datasets",
+  "captionBoundary": {
+    "x1": 59.75429916381836,
+    "x2": 329.0491027832031,
+    "y1": 715.8867797851562,
+    "y2": 719.6600341796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 80.88,
+    "x2": 529.1999999999999,
+    "y1": 100.8,
+    "y2": 700.0799999999999
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/APOE4-Figure4-1.png"
+}, {
+  "caption": "Figure 2. TIM are defined by a unique transcriptional program, interactome, and metabolic state",
+  "captionBoundary": {
+    "x1": 59.75429916381836,
+    "x2": 402.5469055175781,
+    "y1": 715.8867797851562,
+    "y2": 719.6600341796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 128.88,
+    "x2": 481.2,
+    "y1": 100.8,
+    "y2": 700.0799999999999
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/APOE4-Figure2-1.png"
+}]

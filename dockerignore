@@ -1,0 +1,55 @@
+# Ignore node_modules
+node_modules
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore build directories
+dist
+build
+
+# Ignore environment variables
+.env
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.whl
+*.venv/
+venv/
+ENV/
+env/
+.Python
+*.pytest_cache/
+*.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.tox/
+*.pylint.d/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Ignore VSCode files
+.vscode/
+
+# Ignore Git files
+.git/
+.gitignore
+.git
