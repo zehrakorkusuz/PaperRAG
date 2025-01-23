@@ -12,7 +12,9 @@
     {
         "parser_name": "Our implementation of LLMSherpa + pdffigures2",
         "elapsed_time": 148.26967215538025,
-        "includes_chunking": true
+        "includes_chunking": true,
+        "figure_metadata": true,
+        "figure_text": true
     },
     {
         "parser_name": "Docling Images",
