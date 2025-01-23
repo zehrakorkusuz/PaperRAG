@@ -21,7 +21,7 @@ else
 fi
 
 # Clone or update the figure-extractor repository
-FIGURE_EXTRACTOR_DIR="src/data_processing/figure_extractor"
+FIGURE_EXTRACTOR_DIR="src/parsers/figure_extractor"
 if [ ! -d "$FIGURE_EXTRACTOR_DIR" ]; then
     git clone https://github.com/Huang-lab/figure-extractor "$FIGURE_EXTRACTOR_DIR"
     cd "$FIGURE_EXTRACTOR_DIR"
@@ -41,7 +41,7 @@ else
 fi
 
 # Clone or update the llmsherpa repository
-LLMSHERPA_DIR="src/data_processing/llmsherpa"
+LLMSHERPA_DIR="src/parsers/llmsherpa"
 if [ ! -d "$LLMSHERPA_DIR" ]; then
     git clone https://github.com/nlmatics/llmsherpa "$LLMSHERPA_DIR"
     cd "$LLMSHERPA_DIR"

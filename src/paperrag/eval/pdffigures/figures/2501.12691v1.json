@@ -1,0 +1,101 @@
+[{
+  "caption": "Figure 3: Expected trajectory NA(t) under normally distributed rates. (a) - (b) We consider treatment A, which invokes a normally distributed response λ ∼ N(µA, σ 2 A). Hence it can potentially include a mixture of positive/negative λ, as captured by blue/red cells in panel (a). (c) NA(t) vs. t begins with an exponential decay driven by the average E(λ) = µA, but at t = µA/σ 2 A begins to reemerge, leading to a long term proliferation driven by V (λ) = σ2 A. (d) The density function PA λ (z; t) at three different time points t = 0, 12.5 and 25. As the population dynamics progresses the rapidly decaying lineages (large λ) are eliminated, and the λ distribution progressively tends towards the longer living cells (smaller and potentially negative λ). Hence, at t → ∞ the initially negligible sub-population of λ-negative cells begins to dominate the population dynamics. (e) We collected data from 78 empirical population response patterns (i = 1, . . . , 78). In experiment i an initial population of Ni0 cancer cells were subject to a specific chemotherapeutic agent (grey). Here we display the normalized population ni(t) = Ni(t)/Ni0 as obtained from the ith cancer/treatment combination. Three specific experimental combinations are highlighted (red shades). For example, in dark red we track cell-line PC9’s response to Gefitinib, as represented by the image pointed to by the dark red arrow. The other two combinations are also shown. (f) We focus on the three highlighted ni(t) plots of panel (e). Despite the diversity of the observed ni(t) (circles), we find that they can be well-approximated by Eq. (7) under the appropriate selection of µi, σi. (g) To test this systematically we plot ni(t) vs. fi(t) = −µit + σ2 i t 2/2. We find that all data-points (grey) of panel (e) collapse onto the universal black solid line predicted by Eq. (7). This clearly shows that the diverse response patterns observed across the 78 experiments all fall within the universal prediction of (7). The three selected ni(t) from panel (f) are highlighted (red shades). (h) We consider two competing treatments A = 1 (dark red) and A = 2 (light red), in which µ1 > µ2 and σ1 > σ2. (i) The short term response clearly indicates that 1 is preferable over 2, as it eliminates the undesired cells more rapidly. (j) However, in the long term, due to 1’s higher variance (σ1 > σ2), we observe a crossover effect: while under 2 the cells continue to decay, the 1 treated population changes course, and begins to rapidly proliferate. This highlights the crucial clinical implications of population heterogeneity (σA) over its average (µA). (k) - (m) We observe several instances of such crossover dynamics within our 78 experimental treatments (see Supplementary Section 6.3).",
+  "captionBoundary": {
+    "x1": 70.86599731445312,
+    "x2": 524.4132690429688,
+    "y1": 510.5554504394531,
+    "y2": 779.0239868164062
+  },
+  "figType": "Figure",
+  "imageText": ["Gefitinib", "PC9", "Gemcitibin", "G361", "Cisplatin", "G361", "m", "1", "s", "1", "m", "2", "s", "2", "m", "=", "0.17", "s", "=", "0.04", "m", "=", "0.29", "s", "=", "0.12", "m", "=", "0.34", "s", "=", "0.11", "(k)", "(l)", "(m)", "(b)(a)", "(c)", "(e)", "(g)", "(i)(h)", "(f)", "(j)", "(d)", "t", "=", "0t", "=", "12.5t", "=", "25", "/", "s�", "~e", "1", "2s2", "t", "2", "t", "=", "m", "t", "A", "A", "A", "~e", "-m", "A", "s", "A", "m", "A", "SKBR3;", "Gemcitibin", "G361;", "VX-680", ")", "n", "i(t", "10", "2", "10", "0", "10", "-2", "0", "20", "40", "t", "PC9;", "Gefitinib", "PC9;", "Docetaxel", ")", "n", "i(t", "10", "2", "10", "0", "10", "-2", "0", "20", "40", "t", "PC9;", "Gefitinib", "PC9;VX-680", ")", "n", "i(t", "10", "2", "10", "0", "10", "-2", "0", "20", "40", "t", "1", "2", ")", "N", "A", "(t", "10", "6", "10", "5", "10", "4", "0", "2", "4", "6", "t", ")", "1", "2", "N", "A", "(t", "10", "6", "10", "4", "10", "2", "0", "10", "20", "t", "2", "0", ")", "1", ";t", "=", "P", "A", "l(z", "4", "2", "0", "0", "1", "2", "z", ")", "n", "i(t", "10", "2", "10", "0", "10", "-2", "-8", "-4", "0", "4", "f", "i", "(t)", ")", "n", "i(t", "t", "0", "20", "40", "t", "0", "20", "40", "t", "n", "i(t", ")", "0", "20", "40", "10", "1", "10", "0", "10", "-1", "10", "-2", "10", "-3", "0", "20", "40", "t", "0.5", "1", "P", "A", "l(z", ";t", ")", "0", "-4", "-2", "0", "2", "4", "z", ")", "N", "A", "(t", "10", "8", "10", "4", "10", "0", "0", "15", "30", "t", ")", "=", "0", "l(z", ";t", "A", "P", "A", "1", "0.5", "0", "1", "2", "3", "z"],
+  "name": "3",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 161.28,
+    "x2": 427.2,
+    "y1": 71.52,
+    "y2": 496.79999999999995
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/2501.12691v1-Figure3-1.png"
+}, {
+  "caption": "Figure 2: Three classes of the expected population dynamics NA(t). Under PA λ (z; t = 0) in (8) we predict that NA(t) can follow three distinct paths. (a) In case λmin > 0 we observe exponential remission. (b) As an example we consider a bi-modal PA λ (z; t = 0), as commonly observed in antibiotic bacterial persistence: most bacteria exhibit a rapid decay (large λ), while a small minority persist (small λ). These two λ values are depicted by dark/light blue shades in panel (a). (c) The result is that NA(t) ∼ e−λmint (dashed line), driven by the slowest decaying sub-population. Still, despite the slow λmin, this class predicts a long-term exponential decay of the form of Eq. (1). Such dynamics guarantees to eliminate the undesired population within logarithmic timescales, as in (2). We also show an actual stochastic realization of Nt (blue) conducted under the bi-modal PA λ (z; t = 0) of panel (b). (d) - (f) In case PA λ (z; t = 0) is bounded at z = 0 we have λmin = 0, leading to slow remission. Such treatments completely suppress growth (i.e. no λ < 0), but allow for arbitrarily slow decay rates (blue shades). Here NA(t) (dashed line) follows a slow polynomial death (∼ t−α), and hence the typical treatment duration diverges with N0, resulting in successful but inefficient treatment. Such slow decay is also observed under a stochastic realization (green) conducted with PA λ (z; t = 0) of panel (e). (g) - (i) In the presence of negative λmin (red cells), e.g. under normally distributed rates, the expectation will follow a recurrent dynamics, reemerging with a long term exponential growth, driven by the small seed of positively growing cells that may exist within the original population (panel (i), NA(t), dashed line; Nt, red). Note that here, despite taking PA λ (z; t = 0) from a normal distribution, which in principal allows λ ∈ (−∞,∞), we still observe a finite λmin (panel (h), red dot), due to the finite initial population size N0. These classes, we emphasize, capture the expectation NA(t) but disregard potential stochastic deviations, i.e. VA(t), as represented by the grey shaded in Fig. 1b,d. Taking the latter into account, via QA and TA in (14) and (15), we detect conditions where, e.g., extinction may precede recurrence. Under such conditions, while NA(t) reemerges, as per the recurrent class, the actual observed treatment outcome (Nt) may, with high likelihood, be successful and, in fact, reach Nt = 0, thus averting the recurrent branch. Therefore, our full analysis does not stop at NA(t), but also incorporates VA(t) and its subsequent parameters TA and QA.",
+  "captionBoundary": {
+    "x1": 70.86599731445312,
+    "x2": 524.4138793945312,
+    "y1": 516.7575073242188,
+    "y2": 775.2630615234375
+  },
+  "figType": "Figure",
+  "imageText": ["Recurrent", "Slow", "remission", "Exponential", "remission", "l", "min", "~e", "-", "l", "min", "t", "l", "min", "<", "0", "(g)", "(i)(h)", ")", "N", "C", "(t", "10", "6", "10", "4", "10", "2", "0", "10", "20", "30", "40", "t", "0", ")", "P", "C", "l(", "z;", "t", "=", "1", "0", "0", "2", "4", "l", "N", "C", "(t)", "N", "t", "N", "B", "(t)", "N", "t", "N", "t", "(a)", "(b)", "(c)", "N", "A", "(t)", "0", ")", "P", "A", "l(", "z;", "t=", "9", "6", "3", "0", "0.2", "0.4", "0.6", "l", ")", "N", "A", "(t", "10", "6", "10", "3", "10", "0", "0", "50", "100", "t", "~e", "-", "l", "min", "t", "l", "min", ">", "0", "(d)", "(e)", "(f)", ")", "N", "B", "(t", "10", "6", "10", "3", "10", "0", "t", "10", "0", "10", "1", "10", "2", "10", "3", "0", ")", "P", "B", "l(", "z;", "t", "=", "4", "2", "0", "0", "1", "l", "~t", "-a", "l", "min", "=", "0"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 500.15999999999997,
+    "y1": 70.8,
+    "y2": 510.0
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/2501.12691v1-Figure2-1.png"
+}, {
+  "caption": "Figure 1: The malignancy-treatment interplay. (a) The dynamics of a homogeneous cell population under treatment A. In each time step cells duplicate, remain idle or decay stochastically at rates r+, r0 and r−, respectively. These rates depend on the cell-type and on A’s efficacy. The resulting population dynamics is characterized by the discrete random variable Nt, which describes the cell population at time t. If at some instance Nt hits zero (blue horizontal line), the malignant population is eliminated and the treatment is deemed successful. (b) Due to the stochastic nature of Nt each realization of the dynamics leads to a different outcome (orange lines). We can characterize this variability by reducing it into two statistical parameters: The expectation NA(t) (red), which decays exponentially at rate λ = r− − r+, and the standard deviation √ VA(t) (grey), which captures the",
+  "captionBoundary": {
+    "x1": 70.86599731445312,
+    "x2": 524.4129028320312,
+    "y1": 499.26446533203125,
+    "y2": 582.427001953125
+  },
+  "figType": "Figure",
+  "imageText": ["𝒛", ",𝒖", ";𝒕", "=", "𝟎", "𝑷", "𝒓𝑨", "𝒙", ",𝒚", ";𝒕", "=", "𝟎", "𝑷", "𝝀", ",𝝋", "𝑨", "𝒓+", "𝒓−", "𝝀", "𝝋", "Population", "heterogeneity", "&", "stochastic", "dynamics", "𝑸𝑨", "≤", "𝟏", "𝑻𝑨", "∼", "𝐥𝐧𝑵𝟎", "𝑨", "𝑻𝑩", "→", "𝑵𝟎", "𝜷", "𝑸𝑪", ">", "𝟏", "𝑻𝑪", "→", "∞", "𝑸𝑩", "≤", "𝟏", "𝑪", "Treatment", "𝑨", "Stochastic", "population", "dynamics", "𝑩", "𝑨", "𝑩", "Potential", "outcomes(e)", "Time", "Population", "heterogeneity(c)", "Treatment", "success", "and", "duration", "(d)", "Success", "time", "𝑻𝑨", "Treatment", "success", "likely", "𝓥𝑨(𝒕)", "𝑸", "𝑨", "≤", "𝟏", "Time", "𝓝𝑨(𝒕)", "Treatment", "𝑨", "(a)", "Expectation", "&", "variance(b)", "Real.", "3𝓝", "𝒕", "=", "𝒆−𝝀𝒕", "Real.", "1", "Real.", "2", "Time", "𝓥𝑨(𝒕)", "𝓝𝑨(𝒕)", "𝑵𝒕", "Time", "𝒓𝟎", "𝒓−", "𝒓+", "𝑵𝒕", "=", "𝟎", "Treatment", "success", "𝑵𝒕", "=", "𝟏", "𝑵𝒕", "=", "𝟐", "𝑵𝒕", "=", "𝟑", "𝑵𝒕", "=", "𝟒", "𝑪", "𝒓+,", "𝒓_", "𝒓𝟎,", "𝒓𝟎"],
+  "name": "1",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 126.0,
+    "x2": 466.08,
+    "y1": 72.72,
+    "y2": 490.08
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/2501.12691v1-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Recurrent dynamics. (a) - (b) We consider normally distributed rates in which λ, φ ∼ N(µA, σ 2 A, νA, δ 2 A). The distribution for φ is truncated at zero, to ensure positive rates (see Supplementary Section 6.2). (c) While in this class we predict that NA(t) will reemerge, the actual stochastic realizations Nt, namely the observed dynamics, may, under some conditions, avoid recurrence and reach extinction. This is expected, if, during the population dip, when Nt is at its minimum point (t = tmin), a large enough fluctuation drives it towards Nt = 0. Hence we seek QA = qA(t = tmin), i.e. the value of our statistic qA(t) at the population’s most vulnerable time point. (d) In Supplementary Section 4 we derive QA = qA(t = tmin), allowing us to predict the success/recurrence probability. (e) To test the condition presented in panel (c), we examined an ensemble of 6, 400 different stochastic treatment scenarios spanning a broad range of parameter sets (N0, µA, σA, νA, δA). Each scenario was implemented across M = 100 independent realizations, allowing us to extract the success probability P (Nt = 0) from the fraction of realizations that ended in population extinction. For each scenario we also calculated QA as shown in panel (d). Plotting P (Nt = 0) vs. QA (grey dots) we find that indeed QA ≤ 1 (vertical dashed line) sharply splits between the recurrent scenarios (P (Nt = 0) → 0, right) and the successful ones (P (Nt = 0) → 1, left). Hence, our formalism allows us to evaluate a priori, through QA, the potential efficacy of a given treatment, and its probability for recurrence. This prediction is encapsulated within the single parameter QA in (14), as determined by the malignant population size N0 and by its distributed response PA λ,φ(z, u; t = 0) to the proposed treatment. (f) The recurrent vs. successful phase boundary in the N0, µA, σA phase space (grey surface). The predicted boundary sharply splits between our successful (above 90% remission; green) and failed (above 90% recurrence, red) simulated scenarios. The arrows point in the direction of the ideal treatment: large average response (high µA) and a low response variability across the cellular population (small σA). These considerations play an exceeding role as the initial population size N0 is increased, and therefore under small N0 the conditions for success are enhanced. (g) - (i) We focused on three specific scenarios from our ensemble: QA = 5× 10−3 (green), QA = 1 (orange) and QA = 15 (red). For each of these scenarios we show the M = 100 realizations of Nt vs. t. As expected, each realization follows a distinct sequence, a testament to the random nature of Nt. The crucial point is that under QA ≪ 1 all realizations end successfully in Nt = 0 (green), while for QA ≫ 1 they all exhibit the predicted recurrence (red). In between, under QA = 1, we observe borderline behavior (orange), with some realizations (∼ 40%) ending in recurrence, while others (∼ 60%) terminating in the desired remission.",
+  "captionBoundary": {
+    "x1": 70.86598205566406,
+    "x2": 524.4136962890625,
+    "y1": 480.8734436035156,
+    "y2": 782.2188720703125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", ")", "=", "0", ",u", ";t", ",", "(z", "Q", "A", "=", "q", "A", "(t", "min", ")", "zuP", "A", "l", "t", "m", "in", "(a)", "(b)", "(c)", "N", "t", "10", "6", "10", "4", "10", "2", "0", "5", "10", "t", "N", "0", "ms", "1", "Q", "A", "=", "(g)", "(h)", "(i)", "(e)", "(f)", "-3", "A", "=", "6", "×", "10", "=", "13Q", "A", "=", "1.0Q", "AA", "Q", "A", "Remission", "Recurrent", "N", "t", "10", "6", "10", "5", "10", "4", "0", "5", "10", "t", "N", "t", "10", "6", "10", "3", "10", "0", "0", "10", "20", "30", "t", "N", "t", "10", "6", "10", "3", "10", "0", "0", "5", "10", "t", ")", "t", "=", "0", "P", "(N", "1", "0.5", "0", "Q", "A", "10", "4", "10", "2", "10", "0", "10", "-2", "10", "-4"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 114.72,
+    "x2": 478.08,
+    "y1": 70.8,
+    "y2": 473.76
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/2501.12691v1-Figure5-1.png"
+}, {
+  "caption": "Figure 4: Slow remission. (a) - (b) To observe our slow remission class we consider three competing treatments A = 1, 2, 3, each characterized by a different Γ(α, l)-distributed response pattern (α = 1, l = 1, red; α = 2, l = 1, orange; α = 3, l = 1, green). (c) The observed population Nt vs. t as obtained under treatments 1 (red), 2 (orange) and 3 (green). For each treatment we show M = 100 independent realizations, starting from N0 = 107. (d) Averaging over all M realizations we extract NA(t). As predicted in (17), we find that NA(t) ∼ t−α for α = 1, 2, 3 (red, orange and green solid lines, respectively). This confirms our predicted slow power-law decay. (e) VA(t) vs. t (circles) as obtained from the realizations Nt of panel (c). Once again, we observe the scaling (solid lines) predicted in Eq. (17). (f) qA(t) vs. t (circles), alongside our predicted scaling (solid lines). Our analysis predicts that the time TA for the treatment to reach success occurs when QA ≤ 1 (horizontal dashed line). Hence the intersection between qA(t) (colored lines) and the horizontal dashed line represents the expected population extinction time TA. (g) Using our stochastic realizations of panel (c) we extract the observed extinction time TObs A (A = 1, 2, 3) as the time when half of all realizations reached Nt = 0, namely when P (Nt = 0) = 1/2 (vertical dashed lines). Indeed, for t > TObs",
+  "captionBoundary": {
+    "x1": 70.86590576171875,
+    "x2": 524.4131469726562,
+    "y1": 473.74346923828125,
+    "y2": 610.7049560546875
+  },
+  "figType": "Figure",
+  "imageText": ["0", "~N", "1/4", "0", "0", "~N", "1/3", "~N", "1/2", "-2", "~t", "-3/2~t", "-1", "~t", "-2", "~t", "~t", "-1", "~t", "0", "~t", "-3", "~t", "-2", "~t", "-1", "A", "=", "3", "A", "=", "2", "A", "=", "1", "q", "A", "=", "1", "Obs", "3", "2", "T", "Obs", "1", "T", "T", "Obs", "(l)", "(c)(a)", "(i)(h)(g)", "(k)(j)", "(f)", "(b)", "(d)", "(e)", "7", "N", "0", "=", "10", "5", "N", "0", "=", "10", "3", "N", "0", "=", "10", "0", ")", "P", "(N", "t", "=", "1", "0.5", "0", "t", "10", "0", "10", "2", "10", "4", "10", "6", "7", "N", "0", "=", "10", "5", "N", "0", "=", "10", "3", "N", "0", "=", "10", "0", ")", "P", "(N", "t", "=", "1", "0.5", "0", "t", "10", "4", "10", "2", "10", "0", "7", "N", "0", "=", "10", "5", "N", "0", "=", "10", "3", "N", "0", "=", "10", "0", ")", "P", "(N", "t", "=", "1", "0.5", "0", "10", "2", "t", "10", "0", "b", "s", "T", "O", "10", "3", "10", "2", "10", "1", "10", "0", "N", "0", "10", "2", "10", "4", "10", "6", "10", "8", "A", "b", "s", "T", "O", "10", "3", "10", "2", "10", "1", "T", "A", "10", "1", "10", "2", "10", "3", "N", "t", "10", "8", "10", "4", "10", "0", "t", "10", "4", "10", "2", "10", "0", "A", "=", "1", "A", "=", "2", "A", "=", "3", ")", "q", "A", "(t", "10", "2", "10", "0", "10", "-2", "t", "V", "A", "(t", ")", "10", "0", "10", "2", "10", "4", "10", "9", "10", "6", "10", "3", "t", "10", "0", "10", "2", "10", "4", ")", "N", "A", "(t", "10", "6", "10", "3", "10", "0", "t", "10", "0", "10", "2", "10", "4", "N", "t", "10", "6", "10", "3", "10", "0", "t", "10", "4", "10", "2", "10", "0", "a", "=", "2", "a", "=", "3", "0", ")", "a", "=", "1", ";t", "=", "P", "A", "l(z", "1", "0.5", "0", "0", "2", "4", "z"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 146.16,
+    "x2": 454.32,
+    "y1": 78.48,
+    "y2": 469.44
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/2501.12691v1-Figure4-1.png"
+}]

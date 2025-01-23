@@ -1,0 +1,81 @@
+[{
+  "caption": "Fig. 1. Our proposed Masked Mesh Net (MMN) framework.",
+  "captionBoundary": {
+    "x1": 48.95899963378906,
+    "x2": 258.53277587890625,
+    "y1": 374.20849609375,
+    "y2": 379.1419982910156
+  },
+  "figType": "Figure",
+  "imageText": ["'\"", "(∅", "'\"", "(∅", "ROI", "K", "&'\"%", "ROI", "2", "&'\"#", "ROI", "1", "&'\"#", "&", "Original", "Input", "&'", "Reconstruction", "((&&)Anomaly", "Score", "!1", "!$%%", "!1", "!$%%", "!1", "!$%%", "((&%)", "((&$)", "((&#)", "ROI", "K", "&'%", "ROI", "2", "&'$", "ROI", "1", "&'#", "UnPooling", "&\"", "&'\"", "MaxPooling", "Vertex2Vertex", "Convolution", "Age", "/", "Gender", "!!", "Age", "/", "Gender", "!!", "…", "Masked", "Anomaly", "Detection", "Self-supervised", "Masked", "Training", "Surface", "(C,", "163842)", "T1", "Image", "Sphere", "(C,", "40962)", "!1", "!$%%", "(C,", "40962)", "Surface", "(C,", "163842)", "Sphere", "T1", "Image"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 49.68,
+    "x2": 562.56,
+    "y1": 55.44,
+    "y2": 359.28
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/Brain Imaging Anomaly Detection-Figure1-1.png"
+}, {
+  "caption": "TABLE I DEMOGRAPHICS OF THE DATASETS USED IN THE STUDY.",
+  "captionBoundary": {
+    "x1": 339.0010070800781,
+    "x2": 536.003662109375,
+    "y1": 60.09244918823242,
+    "y2": 74.98895263671875
+  },
+  "figType": "Table",
+  "imageText": ["Test", "Set", "ADNI", "[26]", "198", "AD", "(51)", "75.49", "±", "7.13", "96", "/", "102", "OASIS3", "[27]", "925", "AD", "(175)", "69.54", "±", "9.55", "527", "/", "398", "HCP", "Aging", "[68]", "226", "-", "58.04", "±", "14.66", "93", "/", "133", "Validation", "Set", "UKB", "[67]", "7806", "-", "63.44", "±", "7.47", "3598", "/", "4208", "UKB", "[67]", "11709", "-", "63.33", "±", "7.43", "5427", "/", "6282", "HCP", "Aging", "[68]", "342", "-", "56.79", "±", "13.74", "148", "/", "194", "Training", "Set", "Dataset", "#", "Subjects", "#", "Patients", "Age", "(mean±std)", "Gender", "(M/F)"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 310.8,
+    "x2": 561.12,
+    "y1": 81.84,
+    "y2": 203.04
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/Brain Imaging Anomaly Detection-TableI-1.png"
+}, {
+  "caption": "Fig. 2. Data pipeline for unsupervised anomaly detection.",
+  "captionBoundary": {
+    "x1": 311.9729919433594,
+    "x2": 515.3059692382812,
+    "y1": 393.146484375,
+    "y2": 398.0799865722656
+  },
+  "figType": "Figure",
+  "imageText": ["Unsupervised", "Anomaly", "Detection", "thickness,", "volume", "Extract", "surface", "features:", "curvature,", "sulci,", "Quality", "Check", "(Euler", "number", "<=5)", "FreeSurfer", "T1w", "Images", "Test", "Dataset", "K", "Unsupervised", "Anomaly", "Detection", "thickness,", "volume", "Extract", "surface", "features:", "curvature,", "sulci,", "Quality", "Check", "(Euler", "number", "<=5)", "FreeSurfer", "T1w", "Images", "Test", "Dataset", "1", "Self-supervised", "Training", "thickness,", "volume", "Extract", "surface", "features:", "curvature,", "sulci,", "Quality", "Check", "(Euler", "number", "<=5)", "FreeSurfer", "T1w", "Images", "Training", "Dataset"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 562.0799999999999,
+    "y1": 214.79999999999998,
+    "y2": 382.08
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/Brain Imaging Anomaly Detection-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. Unsupervised anomaly detection result in test set.",
+  "captionBoundary": {
+    "x1": 48.95899963378906,
+    "x2": 251.6386260986328,
+    "y1": 369.739501953125,
+    "y2": 374.6730041503906
+  },
+  "figType": "Figure",
+  "imageText": ["Eta", "(η!)", "Eta", "(η!)", "Eta", "(η!)", "Eta", "(η!)", "Thickness", "Volume", "Curvature", "Sulcus"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 533.04,
+    "y1": 61.68,
+    "y2": 359.03999999999996
+  },
+  "renderDpi": 300,
+  "renderURL": "/app/outputs/Brain Imaging Anomaly Detection-Figure3-1.png"
+}]

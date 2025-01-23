@@ -49,4 +49,8 @@ NOTES.txt
 
 *.faiss
 *.index
-*.json
+*.json!src/paperrag/eval/docling-figures/
+!src/paperrag/eval/pdffigures/
+!src/paperrag/eval/pdffigures/*.png
+!src/paperrag/eval/docling-figures/*.png
+!src/paperrag/eval/pdffigures/figures/*.png
