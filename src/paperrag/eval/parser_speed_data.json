@@ -1,0 +1,22 @@
+[
+    {
+        "parser_name": "Docling",
+        "elapsed_time": 87.74744701385498,
+        "includes_chunking": true
+    },
+    {
+        "parser_name": "LLMSherpa",
+        "elapsed_time": 164.5761911869049,
+        "includes_chunking": false
+    },
+    {
+        "parser_name": "Our implementation of LLMSherpa + pdffigures2",
+        "elapsed_time": 148.26967215538025,
+        "includes_chunking": false
+    },
+    {
+        "parser_name": "Docling Images",
+        "elapsed_time": 136.89149498939514,
+        "includes_chunking": true
+    }
+]
